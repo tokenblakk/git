@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{09FCF42B-CAB8-04AD-DC75-9ACCE8EC9051}") = "Pentagon", "Assembly-CSharp-firstpass.csproj", "{0579C134-88E3-AADA-77BC-7BC5BFE33EFB}"
+EndProject
+Project("{09FCF42B-CAB8-04AD-DC75-9ACCE8EC9051}") = "Pentagon", "Assembly-UnityScript-firstpass.unityproj", "{5AC56A20-79DE-7CC7-5A8A-E1D01EBFEAFF}"
+EndProject
+Project("{09FCF42B-CAB8-04AD-DC75-9ACCE8EC9051}") = "Pentagon", "Assembly-UnityScript.unityproj", "{20C99F15-D82C-449C-A4C2-61D178C639D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0579C134-88E3-AADA-77BC-7BC5BFE33EFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0579C134-88E3-AADA-77BC-7BC5BFE33EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0579C134-88E3-AADA-77BC-7BC5BFE33EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0579C134-88E3-AADA-77BC-7BC5BFE33EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AC56A20-79DE-7CC7-5A8A-E1D01EBFEAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC56A20-79DE-7CC7-5A8A-E1D01EBFEAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC56A20-79DE-7CC7-5A8A-E1D01EBFEAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC56A20-79DE-7CC7-5A8A-E1D01EBFEAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C99F15-D82C-449C-A4C2-61D178C639D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C99F15-D82C-449C-A4C2-61D178C639D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C99F15-D82C-449C-A4C2-61D178C639D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C99F15-D82C-449C-A4C2-61D178C639D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal
