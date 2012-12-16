@@ -1,0 +1,14 @@
+[
+    {
+        "caption": "Unity Helper: Search Selection",
+        "command": "unity_helper_search_selection"
+    },
+    {
+        "caption": "Unity Helper: Open Function Reference",
+        "command": "unity_helper_open_selection"
+    },
+    {
+        "caption": "Unity Helper: Search from Input",
+        "command": "unity_helper_search_from_input"
+    }
+]

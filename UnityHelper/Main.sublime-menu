@@ -1,0 +1,26 @@
+[
+    {
+        "caption": "Tools",
+        "mnemonic": "t",
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Unity Helper",
+                "mnemonic": "f",
+                "id": "unity-helper",
+                "children":
+                [
+                    {
+                        "command": "unity_helper_search_selection",
+                        "caption": "Search Selection"
+                    },
+                    {
+                        "command": "unity_helper_search_from_input",
+                        "caption": "Search From Input"
+                    }
+                ]
+            }
+        ]
+    }
+]   

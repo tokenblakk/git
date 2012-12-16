@@ -44,6 +44,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\CameraMoveScript.js" />
      <Compile Include="Assets\Scripts\PlayerMoveScript.js" />
   </ItemGroup>
   <ItemGroup>
