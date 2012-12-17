@@ -13,3 +13,4 @@ function Update()
 	symbol = shapes[0];
 	print(symbol);
 }
+
