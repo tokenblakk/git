@@ -54,3 +54,16 @@ function OnGUI()
 {
 	GUI.Box(Rect(10, 15, (fuelTimer*20)+7, 20),"Fuel");	//shows player fuels while fuel is available.
 } 
+
+function OnCollisionStay(collision : Collision)
+{
+	//var contact = collision.contacts[0];
+	for (var contact: ContactPoint in collision.contacts)
+		{
+			if (contact.otherCollider.tag.Equals("Block"))// "Triangle")
+				{
+					laser.emit = true;
+					//print(otherCollider.name);
+				}
+		}
+}
