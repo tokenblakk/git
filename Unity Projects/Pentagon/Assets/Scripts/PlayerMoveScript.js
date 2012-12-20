@@ -38,15 +38,14 @@ function Update () {
 			laser.emit = true;
 			fuelTimer -= Time.deltaTime;
 		}
-
+	else if(Input.GetAxisRaw("Vertical") == -1)
+		checkBlock(); //TODO Make some cool interation with the level here
 
 	else 
 	{
 		laser.emit = false; //cut off unnexxessary laasers
 	}
-
-	//else if(Input.GetAxisRaw("Vertical") == -1)
-		//print("down"); TODO Make some cool interation with the level here
+	
 	//else print("");
 }
 
@@ -66,4 +65,9 @@ function OnCollisionStay(collision : Collision)
 					//print(otherCollider.name);
 				}
 		}
+}
+
+function checkBlock()
+{
+	print("Checking block...");
 }
