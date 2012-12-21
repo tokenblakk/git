@@ -39,7 +39,10 @@ function Update () {
 			fuelTimer -= Time.deltaTime;
 		}
 	else if(Input.GetAxisRaw("Vertical") == -1)
+	{
 		checkBlock(); //TODO Make some cool interation with the level here
+		laser.emit = false;
+	}
 
 	else 
 	{
